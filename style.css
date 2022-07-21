@@ -1,0 +1,224 @@
+.banner {
+    background-color: black;
+    border-radius: 20px;
+    height: 500px;
+    width: 1100px;
+    margin: 50px 10px 20px 100px;
+    display: flex;
+}
+.box1 {
+    color: white;
+    height: 420px;
+    width: 450px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.box1 h1 {
+    font-size: 60px;
+    margin-bottom: -5px;
+}
+.box1 p {
+    color: skyblue;
+}
+.button1 {
+    height: 50px;
+    width: 160px;
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+    margin-top: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+  
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button1:hover span {
+    padding-right: 25px;
+}
+  
+.button1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+
+
+.box2 {
+    height: 420px;
+    width: 450px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.content {
+    display: flex;
+    margin-top: 100px; 
+    border: 2px solid white;
+}
+.menu-section {
+    background-color: black;
+    height: 250px;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 100px;
+ }
+.button2 {
+    height: 60px;
+    width: 230px;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.button2:hover
+{
+    background-color: skyblue;
+    
+}
+.button2:active
+{
+    background-color: red;
+    
+}
+.container {
+    
+    height: 1070px;
+    width: 815px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 5px 5px 5px;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+.box {
+    height: 320px;
+    width: 250px;
+    border: 2px solid whitesmoke;
+    
+    border-radius: 20px;
+   
+    display: grid;
+    
+}
+.button3 {
+    height: 40px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: -20px;
+    
+    
+    color:black;
+    border-radius: 10px;
+    
+}
+.container h4 { 
+    margin-left: 10px;
+}
+.container i {
+    display: inline;
+    
+    
+    margin-left: 20px;
+    
+}
+.footer {
+    background-color: black;
+    
+    height: 300px;
+    width: 1340px;
+    margin-top: 120px;
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+}
+.footer hr {
+    margin-left: 190px;
+    margin-right: 190px;
+    background-color: gray;
+    color: gray;
+    margin-bottom: 40px;
+}
+.footer nav {
+    display: inline;
+    
+    
+    justify-content: center;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.social {
+    margin-top: 50px; 
+}
+
+.social i {
+    height: 50px;
+    width: 50px;
+}
+
+.container2 {
+    
+    height: 470px;
+    width: 815px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 5px 5px 5px;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+.box3 {
+    height: 180px;
+    width: 250px;
+    border: 2px solid whitesmoke;
+    padding-top: 39px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline;
+    
+}
+
+@media only screen and (max-width:688px){
+    .content {
+        display: flex;
+    }
+    .container2 {
+            
+            grid-template-columns: repeat(1, 1fr);
+
+    }
+}
