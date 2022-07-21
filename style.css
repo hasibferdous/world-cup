@@ -173,6 +173,16 @@
     text-align: center;
     display: inline;
 }
+.button5 {
+    height: 70px;
+    width: 170px;
+    background-color: red;
+    color:white;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-top: 5px;
+    visibility: hidden;
+}
 
 @media only screen and (max-width:688px){
    
@@ -300,6 +310,137 @@
     }
 }
 
-@media only screen and (max-width:689px) and (max-width:992px) {
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .banner {
+        width: 95%;
+        
+        text-align: center;
+        margin-left: 20px;
+        padding: 0;
+        height: 330px;
+        overflow: hidden;
+    }
+    .box1 {
+      
+        height: 250px;
+        width: 100%;
+        margin-left: 0px;
+        
+        margin-top: 50px;
+        overflow: hidden;
+    }
+    .box1 h1 {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 30px;
+    }
+    .box1 p {
+        font-size: 15px;
+        padding-left: 40px;
+    }
+
+
+    .box2 img {
+        height: 300px;
+        width: 270px;
+        margin-left: 60px;
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px; 
+        border: 2px solid white;
+    }
+    .menu-section {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border: 2px solid white;
+        margin-left: 0px;
+    }
+    .container {
+        height: 1800px;
+        width: 100%;
+        margin-top: 120px;
+        margin-left: -250px;
+        display: grid;
+        grid-template-columns: 5px 5px;
+    }
+    .box {
+        height:320px;
+        width: 260px;
+        display: grid;
+        margin-top: 10px;
+       
+    }
+     
+    .container2 {
+        height: 870px;
+        width: 815px;
+        margin-top: 170px;
+        margin-left: -270px;
+        display: grid;
+        grid-template-columns: 5px 5px;
+        border: 1px solid silver;
+    }
+    .box3 {
+        padding-top: 9px;
+
+    }
     
+
+    .footer {
+        
+        height: 500px;
+        width: 100%;
+        margin-top: 90px;
+        padding-top: 30px;
+        color: white;
+        text-align: center;
+        
+    }
+    .footer hr {
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: gray;
+        color: gray;
+        margin-bottom: 20px;
+    }
+    .footer nav {
+        display: inline;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        
+
+    }
+    .footer a {
+        text-decoration: none;
+        color: gray;
+    }
+    .social {
+        margin-top: 40px; 
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .social i {
+        height: 50px;
+        width: 100%;
+        
+    }
+    .button5 {
+        height: 70px;
+        width: 170px;
+        background-color: red;
+        color:white;
+        margin-left: 300px;
+        border-radius: 10px;
+        margin-top: 5px;
+        visibility: visible;
+        
+        
+    }
 }
